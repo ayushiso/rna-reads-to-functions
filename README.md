@@ -15,5 +15,6 @@ Workflow in Bash, R and Python to go from raw RNA reads to mapped counts, and fr
      
  3. For basic ontology annotation of differentially expressed genes, use `ontology.py`
      * basic command: `python ontology.py path\to\upregulated\genes path\to\downregulated\genes onto_type`
+     * gene files should have log2fc values for the genes
      * onto_type can be C, F, or P (GO slim types)
      
