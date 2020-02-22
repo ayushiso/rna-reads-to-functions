@@ -41,7 +41,6 @@ plt.grid(True)
 plt.scatter(proportions.index.values, proportions['log2FoldChange'], s = proportions['prop']*5000)
 plt.xticks(rotation=90)
 vars = up_file.split(".")[0].split("/")[1].split("_")
-print(vars)
 if len(vars) == 3:
     plt.title("Differentially expressed genes with " + vars[1]  + ": " + vars[2], fontsize=20)
 else:
